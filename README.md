@@ -104,7 +104,7 @@ It uses Next.js framework's built in SSR functionality to fetch data on the serv
 
 Sanzhar Nussipbek - [@kindadev][linkedin-url] - nsanzhar.99@gmail.com
 
-Budgik: [https://github.com/kindageek/evercare-users](https://github.com/kindageek/evercare-users)
+Repository: [https://github.com/kindageek/evercare-users](https://github.com/kindageek/evercare-users)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
