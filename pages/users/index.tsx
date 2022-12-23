@@ -13,9 +13,14 @@ const UsersPage: NextPage<{ data: User[] }> = ({ data }) => {
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const data = await fetch('http://localhost:3000/api/users').then((res) =>
-    res.json()
-  );
+  const data = await fetch(
+    'https://api.json-generator.com/templates/W4qPXJcgk3rq/data',
+    {
+      headers: {
+        Authorization: 'Bearer 3varbip49r6blgrq4iyy2961jv5ng1t00xyldbxx',
+      },
+    }
+  ).then((res) => res.json());
   return { props: { data } };
 };
 
